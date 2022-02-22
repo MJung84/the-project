@@ -8,3 +8,7 @@ h1 {
 header {
   background-color: mediumslateblue;
 }
+
+div:nth-child(1) {
+  background-size: border-box;
+}
