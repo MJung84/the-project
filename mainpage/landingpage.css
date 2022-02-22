@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   width: 500 solid blue;
   border: 10px solid blueviolet;
@@ -7,8 +11,4 @@ h1 {
 
 header {
   background-color: mediumslateblue;
-}
-
-div:nth-child(1) {
-  background-size: border-box;
 }
