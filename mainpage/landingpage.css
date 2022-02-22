@@ -1,0 +1,10 @@
+h1 {
+  width: 500 solid blue;
+  border: 10px solid blueviolet;
+  padding: 20px;
+  margin: 20px;
+}
+
+header {
+  background-color: mediumslateblue;
+}
