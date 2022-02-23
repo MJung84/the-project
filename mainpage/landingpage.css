@@ -3,12 +3,26 @@
 }
 
 h1 {
-  width: 500 solid blue;
+  text-align: center;
+  color: aqua;
+  width: 300;
   border: 10px solid blueviolet;
   padding: 20px;
   margin: 20px;
 }
 
-header {
-  background-color: mediumslateblue;
+* {
+  background-color: black;
+}
+
+body {
+  color: aquamarine;
+}
+
+.holder {
+  color: black;
+}
+
+.introduction {
+  text-align: center;
 }
