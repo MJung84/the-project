@@ -1,28 +1,27 @@
 * {
   box-sizing: border-box;
+  background-image: url(https://user-images.githubusercontent.com/99718218/155300585-de0af9ad-70c3-44ad-a4fc-e3b59992cfc6.jpg);
 }
 
 h1 {
+  font-size: 50px;
   text-align: center;
+  width: 1653px;
   color: aqua;
-  width: 300;
-  border: 10px solid blueviolet;
-  padding: 20px;
-  margin: 20px;
-}
-
-* {
-  background-color: black;
+  padding: 180px 20px;
+  margin: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url(https://user-images.githubusercontent.com/99718218/155332278-7b1511a0-40d7-4446-a1e7-a980b3adfd90.JPG);
 }
 
 body {
   color: aquamarine;
 }
 
-.holder {
-  color: black;
-}
-
 .introduction {
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: transparent;
 }
