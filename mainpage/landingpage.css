@@ -1,10 +1,21 @@
 * {
   box-sizing: border-box;
+}
+
+body {
+  color: aquamarine;
   background-image: url(https://user-images.githubusercontent.com/99718218/155300585-de0af9ad-70c3-44ad-a4fc-e3b59992cfc6.jpg);
+  background-attachment: fixed;
 }
 
 header {
   text-align: center;
+}
+
+.nav-top-sticky {
+  position: sticky;
+  top: 0px;
+  background-image: none;
 }
 
 h1 {
@@ -18,10 +29,6 @@ h1 {
   margin-bottom: 30px;
   background-image: none;
   background-image: url(https://user-images.githubusercontent.com/99718218/155332278-7b1511a0-40d7-4446-a1e7-a980b3adfd90.JPG);
-}
-
-body {
-  color: aquamarine;
 }
 
 .introduction {
@@ -39,10 +46,21 @@ body {
 }
 
 .nav-link:hover {
-  font-size: 120%;
   color: aquamarine;
 }
 
 .nav-link:active {
   color: red;
+}
+
+.placeholder-logo {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 90px;
+  margin: 50px;
+  background-image: url(https://user-images.githubusercontent.com/99718218/155729380-9c7cb529-9ab6-443b-ab81-3b196ec80316.jpg);
+  background-size: 100px;
+  opacity: 0.5;
 }
