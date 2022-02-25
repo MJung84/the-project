@@ -15,19 +15,17 @@ header {
 .nav-top-sticky {
   position: sticky;
   top: 0px;
-  background-image: none;
 }
 
 h1 {
   font-size: 50px;
   text-align: center;
-  width: 1653px;
+  width: 1650px;
   color: aqua;
-  padding: 180px 20px;
-  margin: 150px;
+  padding: 150px 20px;
+  margin: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-image: none;
   background-image: url(https://user-images.githubusercontent.com/99718218/155332278-7b1511a0-40d7-4446-a1e7-a980b3adfd90.JPG);
 }
 
@@ -36,7 +34,6 @@ h1 {
   font-size: 120%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-image: none;
 }
 
 .nav-link {
@@ -77,9 +74,9 @@ h1 {
   font-size: 150%;
   background-image: url(https://user-images.githubusercontent.com/99718218/155739139-887ae755-7767-47ed-9cd3-9725e458d05f.JPG);
   background-size: cover;
-  border: 10px;
-  border-color: rgb(216, 177, 177);
-  border-radius: 10px;
+  border: 10px inset rgba(119, 118, 118, 0.568);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .submit-request {
