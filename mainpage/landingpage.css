@@ -33,6 +33,7 @@ h1 {
 
 .introduction {
   text-align: center;
+  font-size: 120%;
   margin-top: 60px;
   margin-bottom: 60px;
   background-image: none;
@@ -63,4 +64,17 @@ h1 {
   background-image: url(https://user-images.githubusercontent.com/99718218/155729380-9c7cb529-9ab6-443b-ab81-3b196ec80316.jpg);
   background-size: 100px;
   opacity: 0.5;
+}
+
+.sunbmit-request-window {
+  direction: ltr;
+  width: 200px;
+  height: 400px;
+  padding: 20px;
+  margin: 50px;
+  margin-left: 250px;
+  margin-top: 200px;
+  font-size: 150%;
+  border: 5px;
+  border-color: black;
 }
