@@ -77,4 +77,6 @@ h1 {
   font-size: 150%;
   border: 5px;
   border-color: black;
+  background-image: url(https://github.com/MJung84/the-project/blob/6eb3a35fa651072c56965ca1047f81c48e96dcf2/pics/window-back.jpeg);
+  background-size: cover;
 }
