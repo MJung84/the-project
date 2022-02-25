@@ -3,6 +3,10 @@
   background-image: url(https://user-images.githubusercontent.com/99718218/155300585-de0af9ad-70c3-44ad-a4fc-e3b59992cfc6.jpg);
 }
 
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 50px;
   text-align: center;
@@ -12,6 +16,7 @@ h1 {
   margin: 150px;
   margin-top: 30px;
   margin-bottom: 30px;
+  background-image: none;
   background-image: url(https://user-images.githubusercontent.com/99718218/155332278-7b1511a0-40d7-4446-a1e7-a980b3adfd90.JPG);
 }
 
@@ -23,5 +28,20 @@ body {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
-  background-color: transparent;
+  background-image: none;
+}
+
+.nav-link {
+  color: darkkhaki;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link:hover {
+  font-size: 120%;
+}
+
+.nav-link:active {
+  color: red;
 }
