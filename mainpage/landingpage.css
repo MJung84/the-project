@@ -34,8 +34,8 @@ h1 {
 .introduction {
   text-align: center;
   font-size: 120%;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-image: none;
 }
 
@@ -68,15 +68,21 @@ h1 {
 
 .sunbmit-request-window {
   direction: ltr;
-  width: 200px;
+  width: 230px;
   height: 400px;
   padding: 20px;
   margin: 50px;
   margin-left: 250px;
   margin-top: 200px;
   font-size: 150%;
-  border: 5px;
-  border-color: black;
-  background-image: url(https://github.com/MJung84/the-project/blob/6eb3a35fa651072c56965ca1047f81c48e96dcf2/pics/window-back.jpeg);
+  background-image: url(https://user-images.githubusercontent.com/99718218/155739139-887ae755-7767-47ed-9cd3-9725e458d05f.JPG);
   background-size: cover;
+  border: 10px;
+  border-color: rgb(216, 177, 177);
+  border-radius: 10px;
+}
+
+.submit-request {
+  margin: 30px;
+  margin-top: 50px;
 }
