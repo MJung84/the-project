@@ -4,8 +4,21 @@
 
 body {
   color: aquamarine;
-  background-image: url(https://user-images.githubusercontent.com/99718218/155300585-de0af9ad-70c3-44ad-a4fc-e3b59992cfc6.jpg);
+  background-image: url(https://user-images.githubusercontent.com/99718218/155993028-d7cff91c-d856-4130-b4bf-375686ce5492.jpg);
   background-attachment: fixed;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(https://user-images.githubusercontent.com/99718218/155993054-7deb1afd-d773-40e0-b7ad-8dc6bcb9dba1.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(https://user-images.githubusercontent.com/99718218/155300585-de0af9ad-70c3-44ad-a4fc-e3b59992cfc6.jpg);
+  }
 }
 
 header {
@@ -17,32 +30,46 @@ header {
   top: 0px;
 }
 
+@media screen and (max-width: 767px) {
+  .nav-top-sticky {
+    position: static;
+    background-color: black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.5rem solid blue;
+  }
+}
+
 h1 {
-  font-size: 50px;
+  font-size: 3rem;
   text-align: center;
-  width: 1650px;
+  width: 90%;
   color: aqua;
-  padding: 150px 20px;
-  margin: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding: 9.5rem 1.25rem;
+  margin: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   background-image: url(https://user-images.githubusercontent.com/99718218/155332278-7b1511a0-40d7-4446-a1e7-a980b3adfd90.JPG);
-  border: 10px;
-  border-radius: 20px;
+  border: 0.6rem;
+  border-radius: 1.25rem;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .introduction {
   text-align: center;
   font-size: 120%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .nav-link {
   color: darkkhaki;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0.625rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .nav-link:hover {
@@ -55,32 +82,46 @@ h1 {
 
 .placeholder-logo {
   position: fixed;
-  right: 0px;
-  bottom: 0px;
-  width: 100px;
-  height: 90px;
-  margin: 50px;
+  right: 0;
+  bottom: 0;
+  width: 6.25rem;
+  height: 5rem;
+  margin: 3.125rem;
   background-image: url(https://user-images.githubusercontent.com/99718218/155729380-9c7cb529-9ab6-443b-ab81-3b196ec80316.jpg);
-  background-size: 100px;
+  background-size: 6.25rem;
   opacity: 0.5;
 }
 
-.sunbmit-request-window {
-  width: 230px;
-  height: 400px;
-  padding: 20px;
-  margin: 50px;
-  margin-left: 250px;
-  margin-top: 200px;
-  font-size: 150%;
+.interaction-window {
+  width: 14rem;
+  height: 25rem;
+  padding: 1.25rem;
+  margin: 3.25rem;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  font-size: 1.5rem;
   background-image: url(https://user-images.githubusercontent.com/99718218/155739139-887ae755-7767-47ed-9cd3-9725e458d05f.JPG);
   background-size: cover;
-  border: 10px inset rgba(119, 118, 118, 0.568);
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border: 0.625rem inset rgba(119, 118, 118, 0.568);
+  border-bottom-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
 }
 
-.submit-request {
-  margin: 30px;
-  margin-top: 50px;
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.interaction-window-button {
+  width: 8rem;
+  height: 3rem;
+  color: darkkhaki;
+  background-color: rgb(51, 51, 51);
+  background-position-x: center;
+  margin-top: 2rem;
+  margin-left: 1.3rem;
+  border: 0.25rem solid darkblue;
+  border-radius: 0.5rem;
 }
