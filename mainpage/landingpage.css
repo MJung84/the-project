@@ -122,6 +122,6 @@ button:hover {
   background-position-x: center;
   margin-top: 2rem;
   margin-left: 1.3rem;
-  border: 0.25rem solid darkblue;
+  border: 0.25rem solid rgb(16, 16, 66);
   border-radius: 0.5rem;
 }
