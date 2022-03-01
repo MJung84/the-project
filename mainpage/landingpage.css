@@ -109,7 +109,7 @@ button:hover {
 
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 1rem;
   flex-wrap: wrap;
 }
