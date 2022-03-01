@@ -96,10 +96,10 @@ button:hover {
 }
 
 .interaction-window-order {
-  color: rgb(187, 74, 40);
+  color: rgb(190, 183, 182);
   font-weight: bold;
   font-style: oblique;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   width: 14rem;
   height: 25rem;
   padding: 1.25rem;
@@ -115,10 +115,10 @@ button:hover {
 }
 
 .interaction-window-apply {
-  color: rgb(187, 74, 40);
+  color: rgb(190, 183, 182);
   font-weight: bold;
   font-style: oblique;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   width: 14rem;
   height: 25rem;
   padding: 1.25rem;
@@ -134,10 +134,10 @@ button:hover {
 }
 
 .interaction-window-discord {
-  color: rgb(187, 74, 40);
+  color: rgb(190, 183, 182);
   font-weight: bold;
   font-style: oblique;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   width: 14rem;
   height: 25rem;
   padding: 1.25rem;
@@ -153,10 +153,10 @@ button:hover {
 }
 
 .interaction-window-login {
-  color: rgb(187, 74, 40);
+  color: rgb(190, 183, 182);
   font-weight: bold;
   font-style: oblique;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   width: 14rem;
   height: 25rem;
   padding: 1.25rem;
@@ -186,6 +186,6 @@ button:hover {
   background-position-x: center;
   margin-top: 2rem;
   margin-left: 1.3rem;
-  border: 0.25rem solid rgb(187, 74, 40);
+  border: 0.25rem solid rgb(145, 140, 139);
   border-radius: 0.5rem;
 }
