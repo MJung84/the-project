@@ -95,6 +95,12 @@ button:hover {
   opacity: 0.5;
 }
 
+.interaction-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .interaction-window-order {
   color: rgb(190, 183, 182);
   font-weight: bold;
